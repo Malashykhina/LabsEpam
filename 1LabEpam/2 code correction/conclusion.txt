@@ -1,0 +1,10 @@
+Test1.java had 2 public classes in one file.
+           There were 2 "main" methods with signature "main(String[] args)", 
+           so compiler couldn't decide which one to choose
+
+Test2.java. File name (Test2.java) differs from class name(Testing2). 
+            Change "Testing2"->"Test2" or "Test2.java"->"Testing2.java"
+
+Test3.java.(String args)-> (String[] args)
+
+Test4.java. main should be static

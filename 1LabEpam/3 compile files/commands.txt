@@ -1,0 +1,12 @@
+3. Откомпилировать PersonRunner из командной строки так, чтобы файлы *.class писались в папку
+build/classes
+               javac -sourcepath D:\src -d D:\build\classes D:\src\PersonRunner.java
+
+5. Посмотреть полученный байт-код
+               javap -cp D:\build\classes -c PersonRunner
+
+6. Запустить программу с информацией о том, какие грузятся классы
+               javac -verbose -sourcepath D:\src -d D:\build\classes D:\src\PersonRunner.java
+
+7. Сгенерировать JavaDoc в папку docs
+               javadoc -d D:\docs D:\src\Person.java

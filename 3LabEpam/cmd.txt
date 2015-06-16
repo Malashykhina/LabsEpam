@@ -1,0 +1,115 @@
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\src\ua\kpi\pti>cd D:\Flash_dev\java\EPAM\Labs\
+Lab_3\src
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\src>javac -d ./build/classes -cp ./build/class
+es ./ua/kpi/pti/HelloWorld1.java
+javac: directory not found: ./build/classes
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\src>javac -d .../build/classes -cp ./ua/kpi/pt
+i/HelloWorld1.java
+javac: directory not found: .../build/classes
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\src>cd..
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3>javac -d ./build/classes -cp ./src/ua/kpi/pti/
+HelloWorld1.java
+javac: no source files
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3>cd D:\Flash_dev\java\EPAM\Labs\Lab_3\src\ua\kpi\pti
+
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\src\ua\kpi\pti>javac -d D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes HelloWorld1.java
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\src\ua\kpi\pti>cd D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes\ua\kpi\pti
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes\ua\kpi\pti>cd..
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes\ua\kpi>cd..
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes\ua>cd..
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes>java ua.kpi.pti.HelloWorld1
+Hello, world!
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes>cd..
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build>cd..
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3>java -cp build/classes ua.kpi.pti.HelloWorld1
+Hello, world!
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3>cd D:\Flash_dev\java\EPAM\Labs\Lab_3\src\ua\kp
+i\pti
+
+
+
+
+
+
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\src\ua\kpi\pti>javac -d D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes *.java
+
+
+
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\src>javac -cp ./pkg -d D:\Flash_dev\java\EPAM\
+Labs\Lab_3\build\classes -sourcepath . ua\kpi\pti\HelloWorld.java
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\src>cd..
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3>cd build
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build>cd classes
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes>java ua.kpi.pti.HelloWorld
+Hello, world2!!
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes>jar cf Hello.jar D:\Flash_dev\ja
+va\EPAM\Labs\Lab_3\build\classes\ua\kpi\pti\HelloWorld ;D:\Flash_dev\java\EPAM\L
+abs\Lab_3\build\classes\ua\kpi\pti\pkg\PrintHello
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes\ua\kpi\pti\HelloWorld : no such
+file or directory
+;D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes\ua\kpi\pti\pkg\PrintHello : no
+such file or directory
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes>jar -cf Hello.jar D:\Flash_dev\j
+ava\EPAM\Labs\Lab_3\build\classes\ua\kpi\pti\pkg PrintHello
+PrintHello : no such file or directory
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes>jar -cf Hello.jar D:\Flash_dev\j
+ava\EPAM\Labs\Lab_3\build\classes\ua\kpi\pti\pkg\PrintHello
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes\ua\kpi\pti\pkg\PrintHello : no s
+uch file or directory
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes>jar -cf Hello.jar D:\Flash_dev\j
+ava\EPAM\Labs\Lab_3\build\classes\ua\kpi\pti\pkg\PrintHello.class
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes>jar -cf Hello.jar ua\kpi\pti\pkg
+\PrintHello.class
+
+D:\Flash_dev\java\EPAM\Labs\Lab_3\build\classes>

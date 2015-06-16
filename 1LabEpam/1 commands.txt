@@ -1,0 +1,8 @@
+1. Найти где установлена Java 
+   for %i in (java.exe) do @echo.   %~$PATH:i
+
+2. Узнать версию Java
+   java -version
+
+3. Узнать значение переменной окружения JAVA_HOME
+   echo %JAVA_HOME%
