@@ -1,7 +1,23 @@
 package fruitHierarchy;
 
-import MyGenerics.MyComparable;
+public class Fruit implements Comparable {
 
-public abstract class Fruit implements MyComparable {
+	private int value;
+
+	public int getValue() {
+		return value;
+	}
+
+	public void setValue(int value) {
+		this.value = value;
+	}
+	
+	public Fruit(int val){
+		value=val;
+	}
+
+	public int compareTo(Object obj) {
+		return this.getValue()-((Fruit) obj).getValue();
+	}
 
 }

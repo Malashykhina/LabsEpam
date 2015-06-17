@@ -27,7 +27,9 @@ public class TestMyGenerics {
 			app.add(new Apple(3));
 			app.add(new Apple(1));
 			app.add(new Apple(8));
+			
 			MyGenerics.allGreaterThan(app, new Apple(4), outGr);
+			//MyGenerics.allGreaterThan(app, new RedApple(2), outGr);
 			
 			System.out.println(MyGenerics.printCollection(outGr));
 			

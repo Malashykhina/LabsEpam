@@ -14,9 +14,9 @@ public class MyGenerics {
 		}
 	}
 	
-	static <T extends MyComparable> void  allGreaterThan(Collection<T>  collection, T obj , Collection<T> outGr  ){
+	static <T extends Comparable<T>> void  allGreaterThan(Collection<T>  collection, T obj , Collection<T> outGr  ){
 		for(T var : collection){
-			if(var.CompareTo(obj)>0){
+			if(var.compareTo(obj)>0){
 				outGr.add((T) var);
 			}
 		}

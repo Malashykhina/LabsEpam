@@ -1,22 +1,10 @@
 package fruitHierarchy;
 
 public class Orange extends Fruit {
-	private int value;
-
-	public int getValue() {
-		return value;
-	}
-
-	public void setValue(int value) {
-		this.value = value;
-	}
 	
-	public Orange(int val){
-		value=val;
-	}
-	public <T> int CompareTo(T obj) {
-		return this.getValue()-((Orange) obj).getValue();
-	}
+	public Orange(int val) {
+		super(val);
+		}
 
 	@Override
 	public String toString(){
